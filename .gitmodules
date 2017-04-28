@@ -1,0 +1,3 @@
+[submodule "tmux/plugins/current-pane-hostname"]
+	path = tmux/plugins/current-pane-hostname
+	url = https://github.com/soyuka/tmux-current-pane-hostname.git
