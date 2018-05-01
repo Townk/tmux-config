@@ -16,19 +16,8 @@ most of my configurations are target for that kind of work.
 You can use this in any way you prefer but I would like to show you how I use
 it in my machines.
 
-1. Clone this project on any directory;
-2. Link the `tmux.conf` file to your home directory with a `.` prepended;
-3. Link the directory `tmux` to your home directory with a `.` prepended;
-
-Like this:
-
-```sh
-    $ mkdir -p ~/Projects/tmux
-    $ cd ~/Projects/tmux
-    $ git clone https://github.com/Townk/tmux-config.git
-    $ ln -sf ~/Projects/tmux/tmux-config/tmux.config ~/.tmux.config
-    $ ln -sf ~/Projects/tmux/tmux-config/tmux ~/.tmux
-```
+1. Clone this project into `~/.config/tmux`
+2. Call `~/.config/tmux/bin/tat` to start tmux
 
 **Note:** I only tested these configurations on macOS, so use at your own risk.
 
